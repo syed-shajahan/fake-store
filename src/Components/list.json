@@ -1,0 +1,28 @@
+[
+  {
+    "name": "software developer",
+    "id": "1"
+  },
+
+  {
+    "name": "pilot",
+    "id": "2"
+  },
+
+  {
+    "name": "doctor",
+    "id": "3"
+  },
+  {
+    "name": "lawyer",
+    "id": "4"
+  },
+  {
+    "name": "Aeronatical Engineer",
+    "id": "5"
+  },
+  {
+    "name": "spider man",
+    "id": 6
+  }
+]

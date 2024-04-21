@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Julee&family=Lato:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Julee", cursive !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Julee", cursive !important;
+}
+
+/* index css start here */
+
+.herosec {
+  width: 100%;
+  background-color: rgba(43, 85, 78, 1);
+  display: block;
+}
+
+.container {
+  padding: 40px;
+  max-width: 1800px !important;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  padding: 23px;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  width: 100%;
+}
+
+.innercontent {
+  padding: 23px;
+  border: 1px solid rgba(203, 212, 99, 1);
+  display: block;
+  margin: auto;
+  overflow: hidden;
+}
+
+.menuicn {
+  cursor: pointer;
+  color: rgba(203, 212, 99, 1);
+  font-size: 30px !important;
+}
+
+.name {
+  font-family: "Julee", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #cbd463;
+}
+
+.InnercontentBlock {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.svg_blockbx {
+  width: 100%;
+  position: relative;
+  padding-top: 91%;
+  display: block;
+  margin-top: 0px;
+  transform: translate(-34px, 25px);
+}
+
+.svg_blockbx svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.snail {
+  transform-origin: center;
+  animation: snail 2.8s infinite ease-in-out;
+  transition: snail 2.8s infinite ease-in-out;
+}
+
+@keyframes snail {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.head {
+  transform-origin: center;
+  animation: head 2s infinite ease-in-out;
+  transition: head 2s infinite ease-in-out;
+}
+
+@keyframes head {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  50% {
+    transform: rotate(361deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rel {
+  position: relative;
+}
+
+.inneetext {
+  color: #cbd463;
+  font-family: "Julee", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  color: #cbd463;
+  white-space: nowrap;
+}
+
+.text-one-pos {
+  position: absolute;
+  top: 18%;
+  left: 20%;
+}
+
+.text-two-pos {
+  position: absolute;
+  bottom: 20%;
+  right: 5%;
+}
+
+/* ----- */
+
+.card {
+  padding: 10px;
+  background-color: #fff !important;
+  width: 100%;
+  border: none;
+  box-shadow: 0px 10px 20px #ccccccb4;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.imgWrap {
+  width: 100%;
+  position: relative;
+  display: block;
+  padding-top: 100%;
+  margin-bottom: 10px;
+}
+
+.imgWrap img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  left: 0px;
+  top: 0px;
+  object-fit: contain;
+  object-position: center;
+}
